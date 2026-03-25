@@ -27,7 +27,7 @@ export const Login = () => {
     }
 
     async function handleLoginGuest(){
-      email.current.value = "mytest@test.com"
+      email.current.value = "test@test.com"
       password.current.value = "P@ssword"
       try{
       const data = await login({email: email.current.value, password: password.current.value});
