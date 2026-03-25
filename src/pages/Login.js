@@ -26,6 +26,15 @@ export const Login = () => {
       }
     }
 
+    async function handleLoginGuest(){
+      email.current.value = "mytest@test.com"
+      password.current.value = "P@ssword"
+      try{
+      const data = await login({email: email.current.value, password: password.current.value});
+      data.accessToken ? navigate("/products") :  toast.error(data);
+        } catch(error) {
+            toast.error(error.message, {closeButton: true, position: "bottom-center"});
+      }
 
     }
 
