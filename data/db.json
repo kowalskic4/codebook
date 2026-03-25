@@ -334,6 +334,12 @@
       "password": "$2a$10$0tCgP1MLu3DPbJ13/S92cuYMkDc8P6iogTTUECDC.KtBiDdeaS7xO",
       "name": "Test",
       "id": 1
+    },
+    {
+      "email": "mytest@test.com",
+      "password": "$2a$10$qx7mvmNRWtnDD/gT/Ra6ru3RMjELBODLyM7ZVTwE3V3mDy4S5a57S",
+      "name": "My Test",
+      "id": 2
     }
   ]
 }
